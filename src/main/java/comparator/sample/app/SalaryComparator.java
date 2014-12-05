@@ -4,6 +4,12 @@ import java.util.Comparator;
 
 import sample.common.Employee;
 
+/**
+ * Salary Comparator
+ * 
+ * @author malalanayake
+ *
+ */
 public class SalaryComparator implements Comparator<Employee> {
 
 	public int compare(Employee o1, Employee o2) {

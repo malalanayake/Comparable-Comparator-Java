@@ -9,6 +9,7 @@ import comparator.sample.app.SalaryComparator;
 import sample.common.Employee;
 
 /**
+ * Application Class
  * 
  * @author malalanayake
  *
@@ -39,7 +40,7 @@ public class App {
 		for (Employee emp : employees) {
 			System.out.println(emp.toString());
 		}
-		
+
 		SalaryComparator comparator = new SalaryComparator();
 		Collections.sort(employees, comparator);
 		System.out.println("=======After Sorting By Salary=====");
